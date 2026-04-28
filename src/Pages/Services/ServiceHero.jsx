@@ -2,27 +2,7 @@ import { motion } from "framer-motion";
 
 const ServiceHero = () => {
   return (
-    <section className="relative py-24 md:py-28 flex items-center justify-center overflow-hidden bg-[#eef7f3] dark:bg-[#070f0d]">
-      {/* 🌊 Mesh Gradient Layer */}
-      <div className="absolute inset-0">
-        <motion.div
-          className="absolute w-150 h-150 rounded-full blur-[160px] opacity-40 bg-[#34d399]"
-          animate={{ x: [0, 150, -120, 0], y: [0, -120, 100, 0] }}
-          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
-        />
-        <motion.div
-          className="absolute w-125 h-125 rounded-full blur-[180px] opacity-30 bg-[#043915]"
-          animate={{ x: [0, -180, 120, 0], y: [0, 140, -100, 0] }}
-          transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
-        />
-
-        <motion.div
-          className="absolute w-137 h-137 rounded-full blur-[200px] opacity-20 bg-[#6911bc]"
-          animate={{ x: [0, 120, -140, 0], y: [0, -140, 120, 0] }}
-          transition={{ duration: 26, repeat: Infinity, ease: "easeInOut" }}
-        />
-      </div>
-
+    <section className="relative py-24 md:py-28 flex items-center justify-center overflow-hidden bg-[#dcefe8] dark:bg-[#11211c]">
       {/* 🧊 Grid Overlay */}
       <div
         className="absolute inset-0 opacity-[0.08]"

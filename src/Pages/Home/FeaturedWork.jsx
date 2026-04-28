@@ -15,10 +15,10 @@ const FeaturedWork = () => {
         <p className="text-center mt-4 text-sm text-[#3d5c52] dark:text-[#9fd8c5] max-w-xl mx-auto">
           A selection of projects that showcase strategy, design, and results.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 auto-rows-[220px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 auto-rows-auto md:auto-rows-[220px]">
           {featured.map((item, index) => (
-            <motion.div
+            <Link
+              to={`/projects/${item.id}`}
               key={item.id}
               className={`
                 relative overflow-hidden rounded-2xl group
@@ -49,7 +49,7 @@ const FeaturedWork = () => {
               transition
             "
               >
-                <Link
+                <span
                   to={`/projects/${item.id}`}
                   className="
                     px-6 py-2.5 rounded-full
@@ -60,9 +60,9 @@ const FeaturedWork = () => {
                   "
                 >
                   View Case Study
-                </Link>
+                </span>
               </motion.div>
-            </motion.div>
+            </Link>
           ))}
         </div>
       </div>

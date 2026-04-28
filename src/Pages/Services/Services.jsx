@@ -12,7 +12,7 @@ const Services = () => {
         title="Graphic Design Services | Graphiqo Studio"
         description="Explore professional graphic design services including branding, logo design, social media creatives, and visual identity systems."
         keywords="graphic design services, branding, logo design, social media design"
-        url=""
+        url="https://graphiqo-studio.vercel.app/services"
       />
       <ServiceHero />
       <ServiceAccordion />

@@ -9,7 +9,7 @@ const Hero = () => {
         relative md:min-h-screen px-6 flex items-center overflow-hidden
         bg-[#e7f2ee] 
         dark:bg-[#0f1a17]
-        py-24
+        py-28
       "
     >
       {/* BACKGROUND */}
@@ -44,15 +44,14 @@ const Hero = () => {
             animate={{ y: [0, -12, 0] }}
             transition={{ duration: 4, repeat: Infinity }}
             className="
-              w-60 md:w-105
-              rounded-2xl shadow-xl overflow-hidden
-              bg-linear-to-br
-              from-[#7dd3b0]
-              to-[#34d399]
-              flex items-center justify-center
-              text-[#0f1a17]
-              font-semibold
-            "
+  w-full md:w-105
+  aspect-4/3 md:aspect-auto
+  md:h-105
+  rounded-2xl shadow-xl overflow-hidden
+  bg-linear-to-br
+  from-[#7dd3b0]
+  to-[#34d399]
+"
           >
             <img
               src={img}
@@ -66,7 +65,7 @@ const Hero = () => {
             animate={{ y: [0, 14, 0] }}
             transition={{ duration: 5, repeat: Infinity }}
             className="
-              absolute -bottom-6 -left-6
+              absolute -bottom-12 -left-4
               w-28 sm:w-32
               h-28 sm:h-32
 

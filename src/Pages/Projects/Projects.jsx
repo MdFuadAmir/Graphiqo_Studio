@@ -11,7 +11,7 @@ const Projects = () => {
   title="Design Portfolio | Graphiqo Studio"
   description="Browse creative graphic design projects including logos, branding systems, and visual identity work by Graphiqo Studio."
   keywords="design portfolio, branding projects, logo design examples"
-  url=""
+  url="https://graphiqo-studio.vercel.app/projects"
 />
       <ProjectHero />
       <ProjectGrid />

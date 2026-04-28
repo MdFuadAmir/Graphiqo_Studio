@@ -25,7 +25,7 @@ const ProjectDetails = () => {
         description={project.description}
         keywords={`${project.tags.join(", ")}, graphic design, branding`}
         image={project.img}
-        url={`https://graphiqo-studio.com/projects/${project.id}`}
+        url={`https://graphiqo-studio.vercel.app/projects/${project.id}`}
       />
       <div className="max-w-5xl mx-auto">
         <button

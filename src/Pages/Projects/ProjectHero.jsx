@@ -4,10 +4,6 @@ const ProjectHero = () => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
-  // parallax layers
-  const bg1 = useTransform(x, [-300, 300], [20, -20]);
-  const bg2 = useTransform(y, [-300, 300], [-20, 20]);
-
   const textX = useTransform(x, [-300, 300], [-10, 10]);
   const textY = useTransform(y, [-300, 300], [-10, 10]);
 
@@ -26,27 +22,17 @@ const ProjectHero = () => {
       onMouseMove={handleMouseMove}
       className="
         relative flex flex-col items-center justify-center text-center
-        bg-[#e7f2ee] dark:bg-[#0f1a17]
-        overflow-hidden px-6 py-24
+        bg-[#dcefe8] dark:bg-[#11211c]
+        overflow-hidden px-6 pt-28 pb-10 
       "
     >
-      {/* 🌊 BACKGROUND BLOBS */}
-      <motion.div
-        style={{ x: bg1 }}
-        className="
-          absolute w-96 h-96 md:w-125 md:h-125
-          bg-[#34d399]/20 blur-3xl rounded-full
-          -top-32 -left-32
-        "
-      />
-
-      <motion.div
-        style={{ y: bg2 }}
-        className="
-          absolute w-80 h-80 md:w-105 md:h-105
-          bg-[#7dd3b0]/20 blur-3xl rounded-full
-          -bottom-32 -right-32
-        "
+      <div
+        className="absolute inset-0 opacity-[0.08]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+        }}
       />
 
       {/* 🧠 CONTENT */}

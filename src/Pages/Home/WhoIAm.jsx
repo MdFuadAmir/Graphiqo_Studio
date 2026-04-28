@@ -22,7 +22,7 @@ const WhoIAm = () => {
   return (
     <section
       className="
-         py-14 md:py-20 px-6
+         py-16 md:py-20 px-6
         bg-[#eef7f3] 
         dark:bg-[#0f1a17]
       "

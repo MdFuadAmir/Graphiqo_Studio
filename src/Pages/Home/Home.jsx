@@ -13,11 +13,11 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <SEO
-  title="Graphiqo Studio | Creative Graphic Design & Branding Agency"
-  description="Graphiqo Studio delivers modern graphic design, logo creation, and branding solutions that help businesses stand out visually."
-  keywords="graphic design agency, branding studio, logo design, Graphiqo Studio"
-  url=""
-/>
+        title="Graphiqo Studio | Creative Graphic Design & Branding Agency"
+        description="Graphiqo Studio delivers modern graphic design, logo creation, and branding solutions that help businesses stand out visually."
+        keywords="graphic design agency, branding studio, logo design, Graphiqo Studio"
+        url="https://graphiqo-studio.vercel.app"
+      />
       <Hero />
       <TrustedBy />
       <Services />

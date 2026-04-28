@@ -5,7 +5,7 @@ const SEO = ({
   description = "Graphiqo Studio creates powerful visual identities, branding systems, and high-quality graphic design solutions that make brands stand out.",
   keywords = "Graphiqo Studio, graphic design, branding, logo design, visual identity, creative studio",
   image = "/preview.png",
-  url = "",
+  url = "https://graphiqo-studio.vercel.app",
 }) => {
   return (
     <Helmet>
