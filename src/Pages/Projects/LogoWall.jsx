@@ -1,13 +1,13 @@
-import logo1 from "../../../public/Images/brand/b1.png";
-import logo2 from "../../../public/Images/brand/b2.png";
-import logo3 from "../../../public/Images/brand/b3.png";
-import logo4 from "../../../public/Images/brand/b4.png";
-import logo5 from "../../../public/Images/brand/b5.png";
-import logo6 from "../../../public/Images/brand/b6.png";
-import logo7 from "../../../public/Images/brand/b7.png";
-import logo8 from "../../../public/Images/brand/b8.png";
-import logo9 from "../../../public/Images/brand/b9.png";
-import logo10 from "../../../public/Images/brand/b10.png";
+import logo1 from "../../assets/Images/brand/b1.png";
+import logo2 from "../../assets/Images/brand/b2.png";
+import logo3 from "../../assets/Images/brand/b3.png";
+import logo4 from "../../assets/Images/brand/b4.png";
+import logo5 from "../../assets/Images/brand/b5.png";
+import logo6 from "../../assets/Images/brand/b6.png";
+import logo7 from "../../assets/Images/brand/b7.png";
+import logo8 from "../../assets/Images/brand/b8.png";
+import logo9 from "../../assets/Images/brand/b9.png";
+import logo10 from "../../assets/Images/brand/b10.png";
 
 const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10];
 

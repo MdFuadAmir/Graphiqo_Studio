@@ -1,14 +1,14 @@
 import { useEffect, useRef } from "react";
-import img1 from "../../../public/Images/brand/b1.png";
-import img2 from "../../../public/Images/brand/b3.png";
-import img3 from "../../../public/Images/brand/b2.png";
-import img4 from "../../../public/Images/brand/b4.png";
-import img5 from "../../../public/Images/brand/b5.png";
-import img6 from "../../../public/Images/brand/b6.png";
-import img7 from "../../../public/Images/brand/b7.png";
-import img8 from "../../../public/Images/brand/b8.png";
-import img9 from "../../../public/Images/brand/b9.png";
-import img10 from "../../../public/Images/brand/b10.png";
+import img1 from "../../assets/Images/brand/b1.png";
+import img2 from "../../assets/Images/brand/b3.png";
+import img3 from "../../assets/Images/brand/b2.png";
+import img4 from "../../assets/Images/brand/b4.png";
+import img5 from "../../assets/Images/brand/b5.png";
+import img6 from "../../assets/Images/brand/b6.png";
+import img7 from "../../assets/Images/brand/b7.png";
+import img8 from "../../assets/Images/brand/b8.png";
+import img9 from "../../assets/Images/brand/b9.png";
+import img10 from "../../assets/Images/brand/b10.png";
 
 const logos = [img1, img2, img3, img4, img5, img6, img7, img8,img9,img10];
 

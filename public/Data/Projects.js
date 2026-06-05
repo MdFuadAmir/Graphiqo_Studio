@@ -1,9 +1,9 @@
-import img1 from "../Images/project/p2.png";
-import img2 from "../Images/project/p5.png";
-import img3 from "../Images/project/p4.png";
-import img4 from "../Images/project/p6.png";
-import img5 from "../Images/project/p3.png";
-import img6 from "../Images/project/p7.png";
+import img1 from "../../src/assets/Images/project/p2.png";
+import img2 from "../../src/assets/Images/project/p5.png";
+import img3 from "../../src/assets/Images/project/p4.png";
+import img4 from "../../src/assets/Images/project/p6.png";
+import img5 from "../../src/assets/Images/project/p3.png";
+import img6 from "../../src/assets/Images/project/p7.png";
 
 export const projects = [
   {

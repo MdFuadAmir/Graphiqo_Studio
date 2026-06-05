@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaArrowDown } from "react-icons/fa";
-import img from "../../../public/Images/project/p1.png";
+import img from "../../assets/Images/project/p1.png";
 import { Link } from "react-router";
 const Hero = () => {
   return (

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../../../public/Images/pro2.png";
+import profile from "../../assets/Images/pro3.png";
 
 const AboutHero = () => {
   return (
@@ -13,14 +13,14 @@ const AboutHero = () => {
           transition={{ duration: 0.6 }}
           className="flex justify-center md:justify-start"
         >
-          <div className="relative w-full max-w-70 sm:max-w-80 md:max-w-90">
+          <div className="relative">
             {/* IMAGE */}
             <img
               src={profile}
               alt="profile"
               className="
-                w-full h-auto aspect-3/4
-                object-cover rounded-2xl
+                w-full h-full object-cover aspect-3/4
+                 rounded-2xl
                 shadow-[0_20px_60px_rgba(52,211,153,0.2)]
               "
             />

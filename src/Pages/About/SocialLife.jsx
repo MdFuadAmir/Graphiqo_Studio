@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import img1 from "../../../public/Images/life/p1.png";
-import img2 from "../../../public/Images/life/p2.png";
-import img3 from "../../../public/Images/life/p3.png";
-import img4 from "../../../public/Images/life/p4.png";
-import img5 from "../../../public/Images/life/p5.png";
+import img1 from "../../assets/Images/life/p1.png";
+import img2 from "../../assets/Images/life/p2.png";
+import img3 from "../../assets/Images/life/p3.png";
+import img4 from "../../assets/Images/life/p4.png";
+import img5 from "../../assets/Images/life/p5.png";
 
 const images = [img1, img2, img3, img4, img5];
 

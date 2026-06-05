@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router";
-import profile from "../../../public/Images/pro1.png"
+import profile from "../../assets/Images/pro1.png"
 const text =
   "I help brands stand out through modern, clean and conversion-focused design systems. From visual identity to UI/UX, I create experiences that not only look beautiful but also drive real business results. My approach combines strategy, creativity and performance to build designs that actually work in the real world.";
 

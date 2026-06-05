@@ -32,7 +32,10 @@ Please contact me.`,
   const onSubmit = async (data) => {
     try {
       setLoading(true);
-      await axios.post("https://graphiqo-studio-server-th45.vercel.app/send-email", data);
+      await axios.post(
+        "https://graphiqo-studio-server-th45.vercel.app/send-email",
+        data,
+      );
       toast.success("Message sent successfully 🚀");
       reset();
     } catch {
